@@ -1,0 +1,76 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  text-decoration-color: white;
+  text-align: center;
+}
+
+#index_bg{
+    background-image: url(/background-2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.details{
+display: block;
+text-align: center;
+
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    
+    }
+.fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.5;
+      }
+    
+.fa-google {
+        background: #dd4b39;
+        color: white;
+        } 
+        /* Style all font awesome icons */
+        .socials{
+            text-align: center;
+        }
+
+h1{
+      text-align: center;
+      color: whitesmoke;
+      font-size: 50px;
+}
+
+h2{
+  text-align: center;
+  color: whitesmoke
+  
+}
+
+#img{
+  border-radius: 50%;
+  border: solid;
+  border-width: 10px;
+  height: 450px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  border: 5px solid rgb(247, 245, 248);
+
+}
+

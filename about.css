@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+}
+
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+}
+h2{
+    text-align: center;   
+    color: whitesmoke;
+    font-size: 25px;
+}
+#about{
+    text-align: center;
+    
+}
+table {
+    margin-top: 5%;
+    margin-left: 30%;
+    font-size: x-large;
+    
+}
+#profile{
+    border-radius: 50%;
+    border: solid;
+    border-width: 10px;
+    height: 450px;
+    width: 400px;
+    margin-left: 37%;
+    margin-right: 30%;
+    border: 5px solid rgb(245, 242, 242);
+  
+}
+
+body{
+    background-image: url(/background-2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+

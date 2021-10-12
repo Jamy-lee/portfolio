@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav_bar.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="/footer.css">
+ 
+    <title>Contact</title>
+</head>
+<body id = "contact_bg">
+<!-- dropdown nav bar -->
+<div class="navbar">
+    <div class="dropdown">
+    <button class="dropbtn"><img id = "menu"src="/menu_icon.png" alt="menu icon">
+    </button>
+    <div class="dropdown-content">
+        <a href="./index.html"> <strong>Home</strong></a>
+        <a href="./about.html"><strong>About</strong></a>
+        <a href="./contact.css"><strong>Contact</strong></a>
+        <a href="./testimonials.html"><strong>Testimonials</strong></a>
+        <a href="./timeline.html"><strong>Timeline</strong></a>
+    </div>
+    </div>
+    </div> 
+    <br>
+   <br>
+    <br>
+    <form id="Form" action="https://formspree.io/f/xpzknqlr" method="POST">
+        <div><h1 id="contact-head">Contact Me Below</h1></div><br>
+        <div><input type="text" class="inputblock" name="fname" placeholder="First Name" required></div><br><br>
+        <div><input type="text" class="inputblock" name="lname" placeholder="Last Name" required></div><br><br>
+        <div><input type="email" class="inputblock" name="email" placeholder="Email" required></div><br><br>
+        <div><input type="text" class="inputblock" name="p_number" placeholder="Enter phone number" required></div><br><br>
+        <div><textarea id = "text_a" name="Message" cols="30" rows="10" placeholder="Type your message in here" required></textarea></div><br><br>
+        <div><input class="button" type="submit" value="Submit"></div><br>
+        <div><input class="button" type="reset" value="Reset"></div>
+        </div>
+    </form>
+    <footer>
+        <div class="footer_contaier">
+    <div>
+        <p>
+            © Copyright 2021 by Jamy-Lee Lewin
+        </p>
+    </div>
+        </div>
+    </footer>
+</body>
+</html>
